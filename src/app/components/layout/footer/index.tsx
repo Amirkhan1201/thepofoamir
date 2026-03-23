@@ -15,22 +15,14 @@ const Footer = () => {
           <p className="text-secondary">
             Designed by{" "}
             <a
-              href="https://getnextjstemplates.com/"
+              href="https://www.linkedin.com/in/amir-khan-j/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary hover:underline"
             >
-              getnextjstemplates
+              Amir Khan
             </a>{" "}
-            • Distributed by{" "}
-            <a
-              href="https://themewagon.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-primary hover:underline"
-            >
-              ThemeWagon
-            </a>
+           
           </p>
         </div>
       </div>
