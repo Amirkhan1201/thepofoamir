@@ -1,0 +1,79 @@
+import React from 'react';
+
+const ExperienceSec = () => {
+    const experiences = [
+         {
+            year: "Aug 2022 – Sep 2023",
+            title: "Junior Software Engineer",
+            company: "INNOPPL",
+            type: "Fulltime",
+            description: "Developed Shopify e-commerce sites for Hold the Magic and Elite Shield.Ensured mobile responsiveness and SEO compliance."
+        },
+        {
+            year: "Jan 2024 – Jan 2025",
+            title: "Associate Developer",
+            company: "XERAGO",
+            type: "Fulltime",
+            description: "Developed responsive banking UIs for Citi Ultima and Ujjivan Bank using React.js. Managed frontend for EDM, image handling, and vanity URLs.Optimized API usage for better performance and real-time updates. "
+        },
+        {
+            year: "Jan 2025 – Dec 2025",
+            title: "Software Engineer",
+            company: "COMPUNET CONNECTIONS",
+            type: "Fulltime",
+            description: "Working on Raqamyah, a Saudi-based peer-to-peer lending platform, building fast, secure, and responsive web interfaces. Implemented server-side rendering (SSR) and dynamic routing with Next.js. Collaborated in Agile teams for rapid prototyping and deployment."
+        }
+    ];
+
+    return (
+        <section>
+            <div className="py-16 md:py-32">
+                <div className="container mx-auto px-4">
+                    <div className="flex items-center justify-between gap-2 border-b border-black pb-7 mb-9 md:mb-16">
+                        <h2>Experience</h2>
+                        <p className="text-xl text-primary">( 02 )</p>
+                    </div>
+
+                    <div className="space-y-7 md:space-y-12">
+                        {experiences.map((exp, index) => (
+                            <div key={index} className="grid grid-cols-1 sm:grid-cols-3 gap-2.5 md:gap-4 xl:gap-8 items-start relative">
+                                <div className="">
+                                    <h3 className="font-bold mb-2 text-black">{exp.year}</h3>
+                                    <h4 className="text-lg font-normal">{exp.title}</h4>
+                                </div>
+
+                                <div className=" relative">
+                                    {index < experiences.length && (
+                                        <div className={`absolute left-0 top-3 w-px ${index < experiences.length - 1 ? 'h-40' : 'h-30'} bg-softGray`}></div>
+                                    )}
+
+                                    <div className="no-print absolute left-0 top-0 transform -translate-x-1/2">
+                                        <div className={`no-print w-3.5 h-3.5 rounded-full border-1 bg-white flex items-center justify-center ${index === 1 ? 'border-primary' : 'border-black'
+                                            }`}>
+                                            {index === 1 && (
+                                                <div className="w-1.5 h-1.5 rounded-full bg-primary"></div>
+                                            )}
+                                        </div>
+                                    </div>
+
+                                    <div className="pl-4 lg:pl-7">
+                                        <div className="flex items-center gap-2 mb-1">
+                                            <span className="text-xl text-black font-normal">{exp.company}</span>
+                                        </div>
+                                        <p className="text-base font-normal">{exp.type}</p>
+                                    </div>
+                                </div>
+
+                                <div className="pl-8 sm:pl-0">
+                                    <p className="leading-relaxed text-base">{exp.description}</p>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+};
+
+export default ExperienceSec;

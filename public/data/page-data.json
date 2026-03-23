@@ -1,0 +1,106 @@
+{
+  "contactBar": {
+    "contactItems": [
+      {
+        "type": "email",
+        "label": "itsroiak@gmail.com",
+        "icon": "/images/icon/mail-icon.svg",
+        "link": "itsroiak@gmail.com"
+      },
+      {
+        "type": "phone",
+        "label": "+91 8608651201 ",
+        "icon": "/images/icon/call-icon.svg",
+        "link": "tel:+8608651201"
+      }
+    
+    ],
+    "socialItems": [
+     
+      {
+        "platform": "linkedin",
+        "icon": "/images/icon/linkedin-icon.svg",
+        "link": "https://www.linkedin.com/in/amir-khan-j/"
+      },
+      {
+        "platform": "facebook",
+        "icon": "/images/icon/facebook-icon.svg",
+        "link": "https://facebook.com"
+      }
+    ]
+  },
+  "educationData": {
+    "education": [
+    
+       {
+    "title": "Higher Secondary - Computer Science",
+    "description": "Completed Higher Secondary education with a specialization in Computer Science at CSI Corley Higher Secondary School."
+  },
+  {
+    "title": "Bachelor of Computer Applications (BCA)",
+    "description": "Pursuing/Completed undergraduate degree in Computer Applications at Asan Memorial College of Arts and Science."
+  }
+
+    ],
+    "skills": [
+  {
+    "name": "React JS",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    "rating": 5
+  },
+  {
+    "name": "JavaScript",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    "rating": 5
+  },
+  {
+    "name": "HTML",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+    "rating": 5
+  },
+  {
+    "name": "CSS",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+    "rating": 5
+  },
+  {
+    "name": "Bootstrap",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+    "rating": 4
+  },
+  {
+    "name": "Shopify",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/shopify/shopify-original.svg",
+    "rating": 4
+  }
+]
+  },
+  "contactLinks": {
+    "socialLinks": [
+      {
+        "title": "Dribble",
+        "href": "/"
+      },
+      {
+        "title": "Facebook",
+        "href": "/"
+      },
+      {
+        "title": "LinkedIn",
+        "href": "https://www.linkedin.com/in/amir-khan-j/"
+      }
+    ],
+    "contactInfo": [
+      {
+        "type": "email",
+        "label": "itsroiak@gmail.com",
+        "link": "mailto:itsroiak@gmail.com"
+      },
+      {
+        "type": "phone",
+        "label": "+91 8608651201",
+        "link": "tel:+90155882500"
+      }
+    ]
+  }
+}
